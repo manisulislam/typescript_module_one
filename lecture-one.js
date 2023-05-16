@@ -5,3 +5,8 @@ var greetings = "hello world";
 var userId = 12563;
 //boolean
 var isLoggedIn = true;
+var hero;
+function getHero() {
+    return "thor";
+}
+hero = getHero();
